@@ -6,11 +6,13 @@ In each section of this template there are hints what we usually describe there.
 
 <!-- This is a sample comment that is not shown in the preview / on the git server. -->
 
-## General notes about the template <!-- omit in toc -->
+## General notes about using this template <!-- omit in toc -->
 
-This document is written in Markdown, so it can be easily edited with text editors or IDEs, and put under version control (e.g. by using Git). If we prefer a word processor, we can copy and paste the HTML view there while preserving the heading levels.
+This document is written in [Markdown](https://en.wikipedia.org/wiki/Markdown), so we can easily edit it with text editors or IDEs, and put it under version control (e.g. by using Git). If we prefer a word processor, we can copy and paste the HTML view there while preserving the heading levels.
 
-On the scope of a documentation: Since there is no "one size fits it all" for architecture documentation, we can add more sections that we are missing or delete sections that are not relevant for our system. It is also possible to put the sections in a different order. However, from a practical point of view, it is recommended to choose the basic structure of the architecture documentation in a uniform way, because this facilitates to navigate around in new project that also use this template. We know this principle of a uniform outline from package inserts for medicines or from game instructions for board games.
+Architecture documentation uses many **diagrams and figures**. These can be embedded as images in Markdown. A lot of information about the view framework ADF and the technical integration with this template (via Diagrams.net with matching ADF elements) can be found on the [overview page about the Architecture Decomposition Framework](https://github.com/architecture-decomposition-framework/welcome-to-adf).
+
+On the **size of a documentation**: Since there is no "one size fits it all" for architecture documentation, we can add more sections that we are missing or delete sections that are not relevant for our system. It is also possible to put the sections in a different order. However, from a practical point of view, it is recommended to choose the basic structure of the architecture documentation in a uniform way, because this facilitates to navigate around in new project that also use this template. We know this principle of a uniform outline from package inserts for medicines or from game instructions for board games.
 
 As a **first step** when creating and filling out an architecture documentation we should always consider for which **target group** we write the documentation. For instance, an architecture documentation that explains the intended client-side caching mechanism to the development team varies greatly in technical depth from documentation that explains to the management why it is important to purchase a commercial technology to achieve a certain performance. The target audience can be described in section "1.5 Objectives of the document".
 
