@@ -1,6 +1,6 @@
 # Architekturdokumentationsvorlage <!-- omit in toc -->
 
-Dies ist die **Version 1.1.0** der ADF-Dokumentationsvorlage. Sie wurde von Dominik Rost und Johannes Schneider erstellt. Die Vorlage wird unter der Lizenz "[Creative Commons: Namensnennung - Weitergabe unter gleichen Bedingungen 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/deed.de)" zur Verfügung gestellt.
+Dies ist die **Version 1.1.1** der ADF-Dokumentationsvorlage. Sie wurde von Dominik Rost und Johannes Schneider erstellt. Die Vorlage wird unter der Lizenz "[Creative Commons: Namensnennung - Weitergabe unter gleichen Bedingungen 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/deed.de)" zur Verfügung gestellt.
 
 In jedem Abschnitt dieser Vorlage stehen Hinweise, was man dort üblicherweise beschreibt. Diese Hinweise entfernen wir, nachdem wir die Abschnitte ausgefüllt haben - oder wir kommentieren sie mittels HTML-Kommentaren `<!--` (Kommentar-Anfang) und `-->` (Kommentar-Ende) aus.
 
@@ -73,7 +73,7 @@ In der Einleitung schaffen wir ein grundlegendes Verständnis über das System f
 
 Jedes System ist in einen geschäftlichen Kontext eingebettet. Es ist wichtig diesen Kontext zu kennen, um ein vollständiges Bild über das System zu erhalten und Entscheidungen verstehen zu können.
 
-Zu beantwortende Fragen:
+Im Text dieses Abschnittes sollten die folgenden Frage beantwortet werden:
 
 - Was sind Motivation und Kerntreiber für die Entwicklung des Systems?
 - Was sind besondere Herausforderungen?

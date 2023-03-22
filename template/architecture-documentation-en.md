@@ -1,6 +1,6 @@
 # Architecture documentation template <!-- omit in toc -->
 
-This is **version 1.1.0** of the ADF documentation template, created by Dominik Rost and Johannes Schneider. The template is distributed under a [Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license](https://creativecommons.org/licenses/by-sa/4.0/).
+This is **version 1.1.1** of the ADF documentation template, created by Dominik Rost and Johannes Schneider. The template is distributed under a [Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license](https://creativecommons.org/licenses/by-sa/4.0/).
 
 In each section of this template there are hints what we usually describe there. We remove these hints after we have filled in the sections - or we comment them out using HTML comments `<!--` (comment start) and `-->` (comment end).
 
@@ -73,7 +73,7 @@ In the introduction, we create a basic understanding of the system for the reade
 
 Each system is embedded in its business context. This section helps to understand this context in order to get a complete picture of the system and comprehend the design decisions.
 
-Questions to be answered:
+In the text of this section, the following questions should be answered:
 
 - What are the motivation and core drivers for the development of the system?
 - What are particular challenges?
