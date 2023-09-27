@@ -191,8 +191,9 @@ In den Unterabschnitten dieses Kapitels beschreiben wir, wie die grundlegende L�
 
 ### 4.1. Lösungsansatz und zentrale Architekturentscheidungen
 
-- Was ist der grundsätzliche Lösungsansatz für das System?
-- Welche grundlegenden Architekturentscheidungen wurden getroffen?
+- Was ist der grundsätzliche Lösungsansatz für das System? Und welche grundlegenden Architekturentscheidungen wurden getroffen? Z.B. lokale Desktop-Anwendung versus verteiltes Client-Server-System, monolithisches Deployment versus (Micro-)Service-Deployment
+- Welche Architektur-Treiber wurden bei diesem Ansatz besonders priorisiert?
+- Bei welchen Treibern wurden Kompromisse eingegangen? Welche Kompromisse?
 
 ### 4.2. Systemdomänen
 

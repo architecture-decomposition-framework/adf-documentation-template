@@ -194,8 +194,9 @@ In the subsections of this chapter, we describe a basic solution strategy for th
 
 ### 4.1. Solution approach and key architecture decisions
 
-- What is the basic solution approach for the system?
-- What basic architectural decisions have been made?
+- What is the basic solution approach for the system? And what fundamental architectural decisions have been made? E.g. local desktop application versus distributed client-server system, monolithic deployment versus (micro-)service deployment.
+- Which architecture drivers have been prioritized in this approach?
+- With which drivers were compromises made? Which compromises?
 
 ### 4.2. System domains
 
