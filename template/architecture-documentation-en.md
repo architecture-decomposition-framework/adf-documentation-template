@@ -1,6 +1,6 @@
 # Architecture documentation template <!-- omit in toc -->
 
-This is **version 1.1.1** of the ADF documentation template, created by Dominik Rost and Johannes Schneider. The template is distributed under a [Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license](https://creativecommons.org/licenses/by-sa/4.0/).
+This is **version 1.1.1 UNDER DEVELOPMENT** of the ADF documentation template, created by Dominik Rost and Johannes Schneider. The template is distributed under a [Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license](https://creativecommons.org/licenses/by-sa/4.0/).
 
 In each section of this template there are hints what we usually describe there. We remove these hints after we have filled in the sections - or we comment them out using HTML comments `<!--` (comment start) and `-->` (comment end).
 
@@ -32,8 +32,8 @@ We make changes traceable by putting the documentation under version control (e.
 - [1. Introduction](#1-introduction)
   - [1.1. Business context](#11-business-context)
   - [1.2. System overview](#12-system-overview)
-  - [1.3. Constraints](#13-constraints)
-  - [1.4. Stakeholders](#14-stakeholders)
+  - [1.3. Stakeholders](#13-stakeholders)
+  - [1.4. Constraints](#14-constraints)
   - [1.5. Document goals](#15-document-goals)
 - [2. System context and domain](#2-system-context-and-domain)
   - [2.1. System context delineation](#21-system-context-delineation)
@@ -90,7 +90,18 @@ We describe all the main features that would be listed on a (fictitious) product
 - What are the really important quality features of the system?
 - What makes the system usable?
 
-### 1.3. Constraints
+### 1.3. Stakeholders
+
+A stakeholder is a person or organization that (directly or indirectly) influences the requirements of a system or that is affected by the system.
+
+- What are the key stakeholders of the system?
+  - Internal and external stakeholders
+  - Direct stakeholders such as: Users, operation staff, developers, test team, support team, ...
+  - Indirect stakeholders such as: Managers, Marketing, ...
+- What are the respective activities and responsibilities of each stakeholder?
+- What are their respective concerns? That is, what is important to them in the system and what is their respective expectation?
+
+### 1.4. Constraints
 
 - What are important constraints and specifications that have to be accepted as "fixed" or "given" during development? For example:
   - Domain constraints ("To be considered a medical system, the system must meet X, Y, Z").
@@ -106,17 +117,6 @@ Note: We should always question the constraints, because
 - they are often not as fixed as they may seem,
 - they limit the solution space, and
 - they may be outdated when the project finally starts.
-
-### 1.4. Stakeholders
-
-A stakeholder is a person or organization that (directly or indirectly) influences the requirements of a system or that is affected by the system.
-
-- What are the key stakeholders of the system?
-  - Internal and external stakeholders
-  - Direct stakeholders such as: Users, operation staff, developers, test team, support team, ...
-  - Indirect stakeholders such as: Managers, Marketing, ...
-- What are the respective activities and responsibilities of each stakeholder?
-- What are their respective concerns? That is, what is important to them in the system and what is their respective expectation?
 
 ### 1.5. Document goals
 
