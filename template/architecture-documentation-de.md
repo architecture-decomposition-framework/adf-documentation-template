@@ -1,6 +1,6 @@
 # Architekturdokumentationsvorlage <!-- omit in toc -->
 
-Dies ist die **Version 1.1.1** der ADF-Dokumentationsvorlage. Sie wurde von Dominik Rost und Johannes Schneider erstellt. Die Vorlage wird unter der Lizenz "[Creative Commons: Namensnennung - Weitergabe unter gleichen Bedingungen 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/deed.de)" zur Verfügung gestellt.
+Dies ist die **Version 1.1.1 IN WEITERENTWICKLUNG** der ADF-Dokumentationsvorlage. Sie wurde von Dominik Rost und Johannes Schneider erstellt. Die Vorlage wird unter der Lizenz "[Creative Commons: Namensnennung - Weitergabe unter gleichen Bedingungen 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/deed.de)" zur Verfügung gestellt.
 
 In jedem Abschnitt dieser Vorlage stehen Hinweise, was man dort üblicherweise beschreibt. Diese Hinweise entfernen wir, nachdem wir die Abschnitte ausgefüllt haben - oder wir kommentieren sie mittels HTML-Kommentaren `<!--` (Kommentar-Anfang) und `-->` (Kommentar-Ende) aus.
 
@@ -32,8 +32,8 @@ Durch eine Versionierung der Dokumentation (z.B. in einem Git-Repository) machen
 - [1. Einleitung](#1-einleitung)
   - [1.1. Geschäftskontext](#11-geschäftskontext)
   - [1.2. Systemübersicht](#12-systemübersicht)
-  - [1.3. Randbedingungen (Constraints)](#13-randbedingungen-constraints)
-  - [1.4. Stakeholder](#14-stakeholder)
+  - [1.3. Stakeholder](#13-stakeholder)
+  - [1.4. Randbedingungen (Constraints)](#14-randbedingungen-constraints)
   - [1.5. Ziele des Dokuments](#15-ziele-des-dokuments)
 - [2. Systemkontext und Domäne](#2-systemkontext-und-domäne)
   - [2.1. System-Kontext-Abgrenzung](#21-system-kontext-abgrenzung)
@@ -90,7 +90,18 @@ Wir beschreiben hier Merkmale, die man auch auf einem (fiktiven) Produktkarton f
 - Was sind die wirklich wichtigen Qualitätseigenschaften des Systems?
 - Was macht das System brauchbar?
 
-### 1.3. Randbedingungen (Constraints)
+### 1.3. Stakeholder
+
+Ein Stakeholder ist eine Person oder Organisation, die (direkt oder indirekt) Einfluss auf die Anforderungen eines Systems hat oder die von dem System betroffen ist.
+
+- Was sind die wichtigsten Stakeholder des Systems?
+  - Interne und externe Stakeholder
+  - Direkte Stakeholder wie: Nutzer, Betrieb, Entwickler, Tester, Support-Team, ...
+  - Indirekte Stakeholder wie: Manager, Marketing, ...
+- Was sind die jeweiligen Tätigkeiten und Verantwortlichkeiten der jeweiligen Stakeholder?
+- Was sind ihre jeweiligen Anliegen? Das heißt, was ist ihnen im System wichtig und was ist ihre jeweilige Erwartungshaltung?
+
+### 1.4. Randbedingungen (Constraints)
 
 - Was sind wichtige Randbedingungen und Vorgaben, die nicht verändert, aber bei der Entwicklung berücksichtigt werden müssen? Zum Beispiel:
   - Randbedingungen aus der Domäne ("Um als Medizinprodukt zu gelten, muss das System X, Y, Z erfüllen")
@@ -106,17 +117,6 @@ Hinweis: Wir sollten die Randbedingungen immer wieder hinterfragen, denn
 - sie sind oft nicht so fest, wie sie scheinen,
 - sie schränken den Lösungsraum ein und
 - sie können veraltet sein, wenn das Projekt schließlich beginnt.
-
-### 1.4. Stakeholder
-
-Ein Stakeholder ist eine Person oder Organisation, die (direkt oder indirekt) Einfluss auf die Anforderungen eines Systems hat oder die von dem System betroffen ist.
-
-- Was sind die wichtigsten Stakeholder des Systems?
-  - Interne und externe Stakeholder
-  - Direkte Stakeholder wie: Nutzer, Betrieb, Entwickler, Tester, Support-Team, ...
-  - Indirekte Stakeholder wie: Manager, Marketing, ...
-- Was sind die jeweiligen Tätigkeiten und Verantwortlichkeiten der jeweiligen Stakeholder?
-- Was sind ihre jeweiligen Anliegen? Das heißt, was ist ihnen im System wichtig und was ist ihre jeweilige Erwartungshaltung?
 
 ### 1.5. Ziele des Dokuments
 
