@@ -43,13 +43,12 @@ Durch eine Versionierung der Dokumentation (z.B. in einem Git-Repository) machen
   - [3.2. Qualitätsattribute](#32-qualitätsattribute)
 - [4. Systemdekomposition](#4-systemdekomposition)
   - [4.1. Lösungsansatz und zentrale Architekturentscheidungen](#41-lösungsansatz-und-zentrale-architekturentscheidungen)
-  - [4.2. Systemdomänen](#42-systemdomänen)
-  - [4.3. Systemstruktur](#43-systemstruktur)
-  - [4.4. Datenmodell](#44-datenmodell)
-  - [4.5. Code-Organisation (Abbildung Laufzeit auf Entwicklungszeit)](#45-code-organisation-abbildung-laufzeit-auf-entwicklungszeit)
-  - [4.6. Build-Prozess und -Struktur](#46-build-prozess-und--struktur)
-  - [4.7. Deployment und Betrieb](#47-deployment-und-betrieb)
-  - [4.8. Technologien](#48-technologien)
+  - [4.2. Systemstruktur](#42-systemstruktur)
+  - [4.3. Datenmodell](#43-datenmodell)
+  - [4.4. Code-Organisation (Abbildung Laufzeit auf Entwicklungszeit)](#44-code-organisation-abbildung-laufzeit-auf-entwicklungszeit)
+  - [4.5. Build-Prozess und -Struktur](#45-build-prozess-und--struktur)
+  - [4.6. Deployment und Betrieb](#46-deployment-und-betrieb)
+  - [4.7. Technologien](#47-technologien)
 - [5. Architekturkonzepte](#5-architekturkonzepte)
   - [5.1. Konzept #1](#51-konzept-1)
     - [5.1.1. Architektur-Treiber](#511-architektur-treiber)
@@ -141,10 +140,14 @@ Wir beschreiben in diesem Kapitel, in welchem Kontext das System eingesetzt wird
 
 ### 2.2. Domänenmodell
 
-- Welche Entitäten (Kernelemente aus der geschäftlichen Domäne) gibt es, die im System eine Bedeutung haben und davon verarbeitet werden müssen?
-- Wie ist die jeweilige Bedeutung der unterschiedlichen Entitäten?
+Hinweis: Die Dokumentationsvorlage ist allgemein gehalten und geht nicht davon aus, dass man die Systemarchitektur anhand der Domänen partitioniert (wie z.B. bei Domain-Driven-Design üblich). Dennoch ist es sinnvoll, in diesem Kapitel verschiedene Geschäftsbereiche aufzuführen, welche vom System betroffen sind (und dies mit Kapitel [1.3. Stakeholder](#13-stakeholder) abzugleichen).
+
+- Welche unterschiedlichen Domänen/Geschäftsbereiche werden im System behandelt?
+- Welche Entitäten, also Kernelemente aus den geschäftlichen Domäne, gibt es, die im System eine Bedeutung haben und davon verarbeitet werden müssen?
 - Wie hängen die Entitäten miteinander zusammen?
-- (Lassen sich Unterdomänen bilden, in denen die Entitäten jeweils eine unterschiedliche Bedeutung haben?)
+- Haben gewisse Entitäten in unterschiedlichen Domänen jeweils eine unterschiedliche Bedeutung?
+
+Beispielsweise könnte ein E-Commerce-System die Geschäftsbereiche Beschaffung, Bestellung, Bezahlung abdecken, mit den Entitäten Beschaffer und Artikel im Bereich Beschaffung sowie Besteller und Artikel im Bereich Bestellung. Die Entität Artikel beschreibt prinzipiell dasselbe, hat aber in den Bereichen Beschaffung und Bestellung vielleicht unterschiedliche Eigenschaften (z.B. Einkaufspreis versus Verkaufspreis).
 
 ## 3. Architekturtreiber (Funktion und Qualität)
 
@@ -195,39 +198,41 @@ In den Unterabschnitten dieses Kapitels beschreiben wir, wie die grundlegende L�
 - Welche Architektur-Treiber wurden bei diesem Ansatz besonders priorisiert?
 - Bei welchen Treibern wurden Kompromisse eingegangen? Welche Kompromisse?
 
-### 4.2. Systemdomänen
+### 4.2. Systemstruktur
 
-- Wie lässt sich das System nach unterschiedlichen Domänen zergliedern (im Sinne von Domain-Driven Design)
-- Wie hängen die Domänen miteinander zusammen?
+- Anhand welcher Kriterien ist das System auf oberster Ebene unterteilt? Handelt es sich bei diese Unterteilung eher um eine technische Unterteilung (verschiedene Schichten) oder um eine fachliche Unterteilung (nach Domänen/Geschäftsbereichen geclustert)?
+- Wie hängen die einzelnen Systemteile miteinander zusammen?
 - Welche Abhängigkeiten und Synchronisierungsbedarfe gibt es?
-
-### 4.3. Systemstruktur
-
-- Wie sieht die funktionale Dekomposition des Systems zur Laufzeit im Sinne von Komponenten aus?
+- Wie sieht die funktionale Dekomposition des Systemteile zur Laufzeit im Sinne von Komponenten aus?
 - Welche Aufgaben haben die einzelnen Komponenten?
 - Wie interagieren diese miteinander?
 - Welche Daten werden zwischen den Komponenten ausgetauscht?
 
-### 4.4. Datenmodell
+Wir empfehlen, für die Zerlegung auf oberster Ebene und pro genauere Beschreibung eines System-Einzelteils Unterkapitel anzulegen.
 
-- Wie sieht das grundlegende Datenmodell für das System aus?
-- Was sind die fachlichen Entitäten und welche Beziehungen existieren zwischen diesen?
+### 4.3. Datenmodell
 
-### 4.5. Code-Organisation (Abbildung Laufzeit auf Entwicklungszeit)
+- Wie sieht das grundlegende Datenmodell für das System (zur Laufzeit) aus?
+- Welche Entitäten gibt es? Wie stehen diese in Bezug zu dem in [Kapitel 2.2](#22-domänenmodell) beschriebenen Domänenmodell?
+- Welche Beziehungen gibt es zwischen den Entitäten?
+- Welche Entitäten werden global im gesamten System verwendet? Welche sind speziell in einzelnen Systemteilen?
+
+### 4.4. Code-Organisation (Abbildung Laufzeit auf Entwicklungszeit)
 
 - Wie werden Komponenten (Laufzeit) auf Module (Entwicklungszeit) abgebildet (Runtime-to-devtime mapping)?
 - Durch welche Code-Strukturen (z.B. Java-Klassen) werden die Module realisiert?
+- Wie werden die Datenstrukturen in Code realisiert? Welche Datentypen gibt es? Gibt es Vererbung oder Komposition unter den Datentypen?
 - Wie ist der Quellcode in Paketen organisiert?
 - Welche Versionskontrolle wird eingesetzt? Welche Repositories gibt es für welchen Quellcode und welche Konfiguration?
 
-### 4.6. Build-Prozess und -Struktur
+### 4.5. Build-Prozess und -Struktur
 
 - Welche Deployment-Artefakte gibt es?
 - Wie werden Module in Deployment-Artefakte verpackt?
 - Wie werden die Deployment-Artefakte erstellt?
 - Welche Stages gibt es? Was passiert in den einzelnen Stages?
 
-### 4.7. Deployment und Betrieb
+### 4.6. Deployment und Betrieb
 
 - Wie sieht die Ausführungsumgebung des Systems aus?
 - Wie wird das System zwischen Client und Backend aufgeteilt? Welche unterschiedlichen Nodes oder Ausführungsumgebungen gibt es für Client und Backend?
@@ -236,7 +241,7 @@ In den Unterabschnitten dieses Kapitels beschreiben wir, wie die grundlegende L�
 - Wird das System bei einem Cloud-Provider betrieben?
 - Wird eine Platform as a Service verwendet?
 
-### 4.8. Technologien
+### 4.7. Technologien
 
 - Was sind die wichtigsten verwendeten Technologien für die Ausführung und Entwicklung des Systems?
 - Welche Entscheidungen haben dazu geführt, das sie verwendet werden?

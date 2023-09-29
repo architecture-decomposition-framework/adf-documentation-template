@@ -43,13 +43,12 @@ We make changes traceable by putting the documentation under version control (e.
   - [3.2. Quality attributes](#32-quality-attributes)
 - [4. System decomposition](#4-system-decomposition)
   - [4.1. Solution approach and key architecture decisions](#41-solution-approach-and-key-architecture-decisions)
-  - [4.2. System domains](#42-system-domains)
-  - [4.3. System structure](#43-system-structure)
-  - [4.4. Data model](#44-data-model)
-  - [4.5. Code organization (mapping runtime to devtime)](#45-code-organization-mapping-runtime-to-devtime)
-  - [4.6. Build process and structure](#46-build-process-and-structure)
-  - [4.7. Deployment and operation](#47-deployment-and-operation)
-  - [4.8. Technologies](#48-technologies)
+  - [4.2. System structure](#42-system-structure)
+  - [4.3. Data model](#43-data-model)
+  - [4.4. Code organization (mapping runtime to devtime)](#44-code-organization-mapping-runtime-to-devtime)
+  - [4.5. Build process and structure](#45-build-process-and-structure)
+  - [4.6. Deployment and operation](#46-deployment-and-operation)
+  - [4.7. Technologies](#47-technologies)
 - [5. Architecture concepts](#5-architecture-concepts)
   - [5.1. Concept #1](#51-concept-1)
     - [5.1.1. Architecture drivers](#511-architecture-drivers)
@@ -141,11 +140,14 @@ In this chapter, we describe the context in which the system is used.
 
 ### 2.2. Domain model
 
-- What are the entities (core elements from the business domain) in the system?
-- What do the entities mean? What do they represent?
+Note: This general documentation template does not assume that the system architecture is partitioned by domains (as is common, for example, in domain-driven design). Nevertheless, it is helpful to list different business domains that are affected by the system in this chapter (and to align this with chapter [1.3. Stakeholders](#13-stakeholders)).
+
+- Which different domains are handled in the system?
+- What entities, i.e. core elements from the business domains, do exist that have meaning in the system and need to be processed by it?
 - How are the entities related to each other?
-- How are the entities processed by the system?
-- (Can subdomains be formed in which the entities each have a different meaning?)
+- Do certain entities in different domains each have a different meaning?
+
+For example, an e-commerce system could cover the business domains procurement, ordering, payment, with the entities procurer and article in the procurement domain and orderer and article in the ordering domain. The entity article principally resemble each other, however they can have different attributes in the procurement and order domain (e.g. purchase price versus selling price).
 
 ## 3. Architecture drivers (Function and Quality)
 
@@ -198,39 +200,41 @@ In the subsections of this chapter, we describe a basic solution strategy for th
 - Which architecture drivers have been prioritized in this approach?
 - With which drivers were compromises made? Which compromises?
 
-### 4.2. System domains
+### 4.2. System structure
 
-- How can the system be broken down into different domains (in the sense of domain-driven design)?
-- How are the domains related to each other?
+- On which criteria is the system partitioned at the top level? Is it more of a technical partition (different layers) or a functional partition (clustered by domains/business areas)?
+- How are the individual system parts related to each other?
 - What dependencies and synchronization requirements exist?
-
-### 4.3. System structure
-
-- What is the functional decomposition of the system at runtime in terms of components?
-- What tasks do the individual components have?
+- What is the functional decomposition of the system parts at runtime in terms of components?
+- Which tasks do the individual components have?
 - How do they interact with each other?
 - What data is exchanged between the components?
 
-### 4.4. Data model
+We recommend creating subchapters for the top-level decomposition and each more detailed description of a system part.
 
-- What is the basic data model for the system?
-- What are the business entities and what relationships exist between them?
+### 4.3. Data model
 
-### 4.5. Code organization (mapping runtime to devtime)
+- What is the basic data model for the system (at runtime)?
+- What are the entities? How do they relate to the domain model described in [chapter 2.2](#22-domain-model)?
+- What are the relationships between the entities?
+- Which entities are used globally throughout the system? Which are specific to individual parts of the system?
+
+### 4.4. Code organization (mapping runtime to devtime)
 
 - How are components (runtime) mapped to modules (development time) (runtime-to-devtime mapping)?
 - By which code structures (e.g. Java classes) are the modules realized?
+- How are the data structures realized in code? Which data types are there? Is there inheritance or composition among the data types?
 - How is the source code organized in packages?
 - Which version control system is used? Which repositories exist for which source code and configuration?
 
-### 4.6. Build process and structure
+### 4.5. Build process and structure
 
 - What deployment artifacts are there?
 - How are modules packaged into deployment artifacts?
 - How are deployment artifacts created?
 - What are the stages of the build process? What happens in each stage?
 
-### 4.7. Deployment and operation
+### 4.6. Deployment and operation
 
 - What is the execution environment of the system?
 - How is the system separated between client and backend? What are the different nodes or execution environments for client and backend?
@@ -239,7 +243,7 @@ In the subsections of this chapter, we describe a basic solution strategy for th
 - Is the system hosted by a cloud provider?
 - Is a platform-as-a-service provider being used?
 
-### 4.8. Technologies
+### 4.7. Technologies
 
 - What are the main technologies used for the execution development of the system?
 - What decisions have led to their use?
