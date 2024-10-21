@@ -1,0 +1,26 @@
+# Name of concept
+
+Template for an architecture concept. Copy as "concept-name-lowercase.md", fill it out, and then run `update_concepts_table.sh`. We use the specific name of the solution concept as a heading, e.g. "Multi-tenancy concept", "Scalability", "Logging", "Testability", "Internationalization", "Monitoring", "Configuration", "Offline-usage and data synchronization".
+
+It is important that there is a first paragraph directly after the #-heading (this will be used for the short description in [Architecture Concepts](../05-architecture-concepts.md)).
+
+## Architecture drivers
+
+- Which drivers are addressed/implemented by this concept?
+
+It is sufficient to insert references to the drivers (e.g. the scenario ID).
+
+## Solution idea
+
+- What is the idea with this concept?
+
+We illustrate the idea with architectural views and accompanying text.
+
+## Design decisions
+
+- What fundamental design decisions have we made for this solution concept? E.g. architecture style(s), technologies, frameworks, strategies
+
+## Discarded alternatives
+
+- What alternative solution(s) did we discuss and discard?
+- Why were they rejected?

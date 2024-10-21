@@ -257,7 +257,7 @@ In this chapter, we describe how to achieve the functional and quality goals req
 
 ### 5.1. Concept #1
 
-We used the specific name of the solution concept as a heading, e.g. "Multi-tenancy concept", "Scalability", "Logging", "Testability", "Internationalization", "Monitoring", "Configuration", "Offline-usage and data synchronization".
+We use the specific name of the solution concept as a heading, e.g. "Multi-tenancy concept", "Scalability", "Logging", "Testability", "Internationalization", "Monitoring", "Configuration", "Offline-usage and data synchronization".
 
 #### 5.1.1. Architecture drivers
 

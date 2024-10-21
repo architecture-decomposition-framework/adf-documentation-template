@@ -1,0 +1,25 @@
+# Konzept-Name
+
+Vorlage für ein Architekturkonzept. Als "konzept-name-kleinbuchstaben.md" kopieren, ausfüllen und anschließend `update_concepts_table.sh` ausführen. Wir benutzten als Überschrift den konkreten Namen des Architekturkonzepts, z.B. "Mandantenkonzept", "Skalierbarkeit", "Logging", "Testbarkeit", "Internationalisierung", "Monitoring", "Konfiguration", "Offline-Fähigkeit und Datensynchronisation". 
+
+Wichtig ist, dass es wie hier direkt einen ersten Absatz nach der #-Überschrift gibt (der wird für die Kurzbeschreibung in [Architekturkonzepte](../05-architekturkonzepte.md) benutzt).
+
+## Architektur-Treiber
+
+Welche Treiber werden von diesem Konzept angesprochen/umgesetzt? Es genügt, wenn wir Referenzen auf die Treiber einfügen (z.B. die Scenario-ID).
+
+## Lösungsidee
+
+Welche Idee verfolgen wir mit diesem Konzept? Wir illustrieren die Idee mit Architektur-Sichten und entsprechendem Begleittext.
+
+## Design-Entscheidungen
+
+Welche grundsätzlichen Design-Entscheidungen haben wir für dieses Lösungskonzept getroffen? Z.B. Architekturstil(e), Technologien, Frameworks, Strategien
+
+## Verworfene Alternativen
+
+Welche alternative(n) Lösung(en) haben wir diskutiert und verworfen? Warum wurden sie verworfen?
+
+---
+
+[↑ Architekturkonzepte](../05-architekturkonzepte.md)

@@ -1,0 +1,28 @@
+# Inhalt <!-- omit in toc -->
+
+<!-- Nicht manuell bearbeiten. Zum Aktualisieren des Inhaltsverzeichnisses update-toc.sh ausführen. -->
+
+- [1. Einleitung](01-einleitung.md)
+  - [1.1. Geschäftskontext](01-einleitung.md#11-geschäftskontext)
+  - [1.2. Systemübersicht](01-einleitung.md#12-systemübersicht)
+  - [1.3. Stakeholder](01-einleitung.md#13-stakeholder)
+  - [1.4. Randbedingungen (Constraints)](01-einleitung.md#14-randbedingungen-constraints)
+  - [1.5. Ziele des Dokuments](01-einleitung.md#15-ziele-des-dokuments)
+- [2. Systemkontext und Domäne](02-systemkontext-und-domaene.md)
+  - [2.1. System-Kontext-Abgrenzung](02-systemkontext-und-domaene.md#21-system-kontext-abgrenzung)
+  - [2.2. Domänenmodell](02-systemkontext-und-domaene.md#22-domänenmodell)
+- [3. Architekturtreiber (Funktion und Qualität)](03-architekturtreiber.md)
+  - [3.1. Wesentliche funktionale Anforderungen](03-architekturtreiber.md#31-wesentliche-funktionale-anforderungen)
+  - [3.2. Qualitätsattribute](03-architekturtreiber.md#32-qualitätsattribute)
+- [4. Systemdekomposition](04-systemdekomposition.md)
+  - [4.1. Lösungsansatz und zentrale Architekturentscheidungen](04-systemdekomposition.md#41-lösungsansatz-und-zentrale-architekturentscheidungen)
+  - [4.2. Systemstruktur](04-systemdekomposition.md#42-systemstruktur)
+  - [4.3. Datenmodell](04-systemdekomposition.md#43-datenmodell)
+  - [4.4. Code-Organisation (Abbildung Laufzeit auf Entwicklungszeit)](04-systemdekomposition.md#44-code-organisation-abbildung-laufzeit-auf-entwicklungszeit)
+  - [4.5. Build-Prozess und -Struktur](04-systemdekomposition.md#45-build-prozess-und--struktur)
+  - [4.6. Deployment und Betrieb](04-systemdekomposition.md#46-deployment-und-betrieb)
+  - [4.7. Technologien](04-systemdekomposition.md#47-technologien)
+- [5. Architekturkonzepte](05-architekturkonzepte.md)
+- [6. Risiken und technische Schulden](06-risiken-und-technische-schulden.md)
+- [7. Ausblick und Pläne für die Zukunft](07-ausblick-und-plaene-fuer-die-zukunft.md)
+- [8. Glossar](08-glossar.md)

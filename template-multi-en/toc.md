@@ -1,0 +1,28 @@
+# Table of Contents
+
+<!-- Do not edit manually. To update the table of contents, run update-toc.sh. -->
+
+- [1. Introduction](01-introduction.md)
+  - [1.1. Business context](01-introduction.md#11-business-context)
+  - [1.2. System overview](01-introduction.md#12-system-overview)
+  - [1.3. Stakeholders](01-introduction.md#13-stakeholders)
+  - [1.4. Constraints](01-introduction.md#14-constraints)
+  - [1.5. Document goals](01-introduction.md#15-document-goals)
+- [2. System context and domain](02-system-context-and-domain.md)
+  - [2.1. System context delineation](02-system-context-and-domain.md#21-system-context-delineation)
+  - [2.2. Domain model](02-system-context-and-domain.md#22-domain-model)
+- [3. Architecture drivers (Function and Quality)](03-architecture-drivers.md)
+  - [3.1. 3.1 Key functional requirements](03-architecture-drivers.md#31-31-key-functional-requirements)
+  - [3.2. Quality attributes](03-architecture-drivers.md#32-quality-attributes)
+- [4. System decomposition](04-system-decomposition.md)
+  - [4.1. Solution approach and key architecture decisions](04-system-decomposition.md#41-solution-approach-and-key-architecture-decisions)
+  - [4.2. System structure](04-system-decomposition.md#42-system-structure)
+  - [4.3. Data model](04-system-decomposition.md#43-data-model)
+  - [4.4. Code organization (mapping runtime to devtime)](04-system-decomposition.md#44-code-organization-mapping-runtime-to-devtime)
+  - [4.5. Build process and structure](04-system-decomposition.md#45-build-process-and-structure)
+  - [4.6. Deployment and operation](04-system-decomposition.md#46-deployment-and-operation)
+  - [4.7. Technologies](04-system-decomposition.md#47-technologies)
+- [5. Architecture concepts](05-architecture-concepts.md)
+- [6. Risks and technical debts](06-risks-and-technical-debts.md)
+- [7. Outlook and future plans](07-outlook-and-future-plans.md)
+- [8. Glossary](08-glossary.md)
