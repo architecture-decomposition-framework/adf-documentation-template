@@ -21,3 +21,7 @@ Note: This general documentation template does not assume that the system archit
 - Do certain entities in different domains each have a different meaning?
 
 For example, an e-commerce system could cover the business domains procurement, ordering, payment, with the entities procurer and article in the procurement domain and orderer and article in the ordering domain. The entity article principally resemble each other, however they can have different attributes in the procurement and order domain (e.g. purchase price versus selling price).
+
+---
+
+[← Previous Chapter: 1. Introduction](01-introduction.md) | [↑ Table of Contents](toc.md) | [Next Chapter: 3. Architecture drivers (Function and Quality) →](03-architecture-drivers.md)

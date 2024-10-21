@@ -5,3 +5,7 @@ At last, we define terms that might be unclear to the target group of this docum
 _Term_: Definition, for example:
 
 _CQRS_: Command-Query-Responsibility-Segregation is a software design pattern that uses different data models and interfaces for write and read access of data. For more information, see [Martin Fowler's blog entry on the subject](https://martinfowler.com/bliki/CQRS.html).
+
+---
+
+[← Previous Chapter: 7. Outlook and future plans](07-outlook-and-future-plans.md) | [↑ Table of Contents](toc.md)

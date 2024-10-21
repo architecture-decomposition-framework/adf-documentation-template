@@ -38,3 +38,7 @@ As table:
 | Environment     | _Description_              | _Description_ |
 | Stimulus        | _Description_              | _Description_ |
 | Response        | _Description_              | _Description_ |
+
+---
+
+[← Previous Chapter: 2. System context and domain](02-system-context-and-domain.md) | [↑ Table of Contents](toc.md) | [Next Chapter: 4. System decomposition →](04-system-decomposition.md)

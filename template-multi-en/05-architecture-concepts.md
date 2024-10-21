@@ -38,3 +38,7 @@ Following the same scheme as for Concept #1, we describe further solution concep
 ### 5.2.3. Design decisions
 
 ### 5.2.4. Discarded alternatives
+
+---
+
+[← Previous Chapter: System decomposition](04-system-decomposition.md) | [↑ Table of Contents](toc.md) | [Next Chapter: Risks and technical debts →](06-risks-and-technical-debts.md)

@@ -58,3 +58,7 @@ Note: We should always question the constraints, because
 - What is the status of the system and this document?
   - Example: This documentation is a draft and describes a system that is still in the planning stage.
   - Or: This documentation is completed and describes the system version 2.3, which has been in operation since 15.7.2020.
+
+---
+
+[↑ Table of Contents](toc.md) | [Next Chapter: 2. System context and domain →](02-system-context-and-domain.md)

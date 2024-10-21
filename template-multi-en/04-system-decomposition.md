@@ -56,3 +56,7 @@ We recommend creating subchapters for the top-level decomposition and each more 
 - What are the main technologies used for the execution development of the system?
 - What decisions have led to their use?
 - What frameworks and reusable libraries are used? Why?
+
+---
+
+[← Previous Chapter: 3. Architecture drivers (Function and Quality)](03-architecture-drivers.md) | [↑ Table of Contents](toc.md) | [Next Chapter: 5. Architecture concepts →](05-architecture-concepts.md)
