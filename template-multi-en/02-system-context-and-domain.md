@@ -13,7 +13,7 @@ In this chapter, we describe the context in which the system is used.
 
 ## 2.2. Domain model
 
-Note: This general documentation template does not assume that the system architecture is partitioned by domains (as is common, for example, in domain-driven design). Nevertheless, it is helpful to list different business domains that are affected by the system in this chapter (and to align this with chapter [1.3. Stakeholders](#13-stakeholders)).
+Note: This general documentation template does not assume that the system architecture is partitioned by domains (as is common, for example, in domain-driven design). Nevertheless, it is helpful to list different business domains that are affected by the system in this chapter (and to align this with chapter [1.3. Stakeholders](01-introduction.md#13-stakeholders)).
 
 - Which different domains are handled in the system?
 - What entities, i.e. core elements from the business domains, do exist that have meaning in the system and need to be processed by it?
@@ -24,4 +24,4 @@ For example, an e-commerce system could cover the business domains procurement, 
 
 ---
 
-[← Previous Chapter: 1. Introduction](01-introduction.md) | [↑ Table of Contents](toc.md) | [Next Chapter: 3. Architecture drivers (Function and Quality) →](03-architecture-drivers.md)
+[← Previous Chapter: 1. Introduction](01-introduction.md) | [↑ Table of Contents](toc.md) | [Next Chapter: 3. Architecture drivers (Function and Quality) →](03-architecture-drivers.md

@@ -23,7 +23,7 @@ We recommend creating subchapters for the top-level decomposition and each more 
 ## 4.3. Data model
 
 - What is the basic data model for the system (at runtime)?
-- What are the entities? How do they relate to the domain model described in [chapter 2.2](#22-domain-model)?
+- What are the entities? How do they relate to the domain model described in [chapter 2.2](02-system-context-and-domain.md#22-domain-model)?
 - What are the relationships between the entities?
 - Which entities are used globally throughout the system? Which are specific to individual parts of the system?
 
@@ -59,4 +59,4 @@ We recommend creating subchapters for the top-level decomposition and each more 
 
 ---
 
-[← Previous Chapter: 3. Architecture drivers (Function and Quality)](03-architecture-drivers.md) | [↑ Table of Contents](toc.md) | [Next Chapter: 5. Architecture concepts →](05-architecture-concepts.md)
+[← Previous Chapter: 3. Architecture drivers (Function and Quality)](03-architecture-drivers.md) | [↑ Table of Contents](toc.md) | [Next Chapter: 5. Architecture concepts →](05-architecture-concepts.md

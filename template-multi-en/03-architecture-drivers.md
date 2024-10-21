@@ -34,11 +34,11 @@ As table:
 | Scenario ID     | _ID_                       |               |
 | Priority        | _High, Medium, Low_        |               |
 | Status          | _Open, Ready, Implemented_ |               |
-| **Description** | **Quantification**         |
+| **Description** | **Quantification**         |               |
 | Environment     | _Description_              | _Description_ |
 | Stimulus        | _Description_              | _Description_ |
 | Response        | _Description_              | _Description_ |
 
 ---
 
-[← Previous Chapter: 2. System context and domain](02-system-context-and-domain.md) | [↑ Table of Contents](toc.md) | [Next Chapter: 4. System decomposition →](04-system-decomposition.md)
+[← Previous Chapter: 2. System context and domain](02-system-context-and-domain.md) | [↑ Table of Contents](toc.md) | [Next Chapter: 4. System decomposition →](04-system-decomposition.md
