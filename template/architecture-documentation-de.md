@@ -1,12 +1,14 @@
-# Architekturdokumentationsvorlage <!-- omit in toc -->
+# Architekturdokumentation von Name des Systems (bitte ändern!) <!-- omit in toc -->
 
-Dies ist die **Version 2.0.0** der ADF-Dokumentationsvorlage. Sie wurde von Dominik Rost und Johannes Schneider erstellt. Die Vorlage wird unter der Lizenz "[Creative Commons: Namensnennung - Weitergabe unter gleichen Bedingungen 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/deed.de)" zur Verfügung gestellt.
+Dies ist die Architekturdokumentation von Name des Systems (bitte ändern!). Sie basiert auf der [ADF-Dokumentationsvorlage](https://github.com/architecture-decomposition-framework/adf-documentation-template/blob/main/template/architecture-documentation-de.md) in Version 2.0.1.
+
+## Allgemeine Hinweise zur Benutzung der Vorlage <!-- omit in toc -->
+
+Dies ist die **Version 2.0.1** der ADF-Dokumentationsvorlage. Sie wurde von Dominik Rost und Johannes Schneider erstellt. Die Vorlage wird unter der Lizenz "[Creative Commons: Namensnennung - Weitergabe unter gleichen Bedingungen 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/deed.de)" zur Verfügung gestellt.
 
 In jedem Abschnitt dieser Vorlage stehen Hinweise, was man dort üblicherweise beschreibt. Diese Hinweise entfernen wir, nachdem wir die Abschnitte ausgefüllt haben - oder wir kommentieren sie mittels HTML-Kommentaren `<!--` (Kommentar-Anfang) und `-->` (Kommentar-Ende) aus.
 
 <!-- Das hier ist ein Beispiel-Kommentar, der in der Vorschau / auf dem Git-Server nicht angezeigt wird. -->
-
-## Allgemeine Hinweise zur Benutzung der Vorlage <!-- omit in toc -->
 
 Dieses Dokument ist in [Markdown](https://de.wikipedia.org/wiki/Markdown) geschrieben, so dass wir es ganz einfach mit Texteditoren oder Entwicklungsumgebungen bearbeiten und in eine Versionskontrolle (z.B. Git) einpflegen können. Wenn wir ein Textverarbeitungsprogramm bevorzugen, können wir die HTML-Ansicht unter Beibehaltung der Überschriftebenen per Copy&Paste dorthin importieren.
 

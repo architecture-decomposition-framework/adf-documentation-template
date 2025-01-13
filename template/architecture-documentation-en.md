@@ -1,12 +1,14 @@
-# Architecture documentation template <!-- omit in toc -->
+# Architecture Documentation of System Name (please change!) <!-- omit in toc -->
 
-This is **version 2.0.0** of the ADF documentation template, created by Dominik Rost and Johannes Schneider. The template is distributed under a [Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license](https://creativecommons.org/licenses/by-sa/4.0/).
+This is the architecture documentation of System Name (please change!). It is based on the [ADF documentation template](https://github.com/architecture-decomposition-framework/adf-documentation-template/blob/main/template/architecture-documentation-en.md) in version 2.0.1.
+
+## General notes about using this template <!-- omit in toc -->
+
+This is **version 2.0.1** of the ADF documentation template, created by Dominik Rost and Johannes Schneider. The template is distributed under a [Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license](https://creativecommons.org/licenses/by-sa/4.0/).
 
 In each section of this template there are hints what we usually describe there. We remove these hints after we have filled in the sections - or we comment them out using HTML comments `<!--` (comment start) and `-->` (comment end).
 
 <!-- This is a sample comment that is not shown in the preview / on the git server. -->
-
-## General notes about using this template <!-- omit in toc -->
 
 This document is written in [Markdown](https://en.wikipedia.org/wiki/Markdown), so we can easily edit it with text editors or IDEs, and put it under version control (e.g. by using Git). If we prefer a word processor, we can copy and paste the HTML view there while preserving the heading levels.
 
