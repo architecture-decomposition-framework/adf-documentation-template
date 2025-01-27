@@ -187,7 +187,7 @@ As table:
 | Scenario ID     | _ID_                       |               |
 | Priority        | _High, Medium, Low_        |               |
 | Status          | _Open, Ready, Implemented_ |               |
-| **Description** | **Quantification**         |
+| **Description** | **Quantification**         |               |
 | Environment     | _Description_              | _Description_ |
 | Stimulus        | _Description_              | _Description_ |
 | Response        | _Description_              | _Description_ |
